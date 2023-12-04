@@ -1,0 +1,56 @@
+:root{
+
+  --color-primary: #5271ff;
+  --color-text: #444444;
+  --color-bg: rgb(236, 236, 236);
+  --color-white: white;
+  --color-border: lightgray;
+  --color-soft: #aaaaaa;
+  --color-red: red;   
+}
+
+.cover-photos{
+    width: 100%;
+    height: 200px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: .5rem;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.profile-info>img{
+    width: 120px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-top: -70px;
+    border: 4px white solid;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.profile-action{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-action button:nth-child(1){
+    background: transparent;
+}
+.profile-action button:last-child{
+    color: var(--color-primary);
+}
+.bio{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: .8rem;
+}
